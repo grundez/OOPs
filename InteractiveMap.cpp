@@ -1,15 +1,10 @@
-#include "interactivemap.h"
-#include <iostream>
+#include "InteractiveMap.h"
 
-void InteractiveMap::displayMap() {
-    std::cout << "Displaying interactive map..." << std::endl;
-}
+InteractiveMap::InteractiveMap() {
+    width = 100;
+    height = 100;
+}   
 
-
-void InteractiveMap::highlightExhibits() {
-    // Реализация выделения экспонатов на карте.
-}
-
-void InteractiveMap::getNavigation() {
-    // Реализация расчета оптимального маршрута.
+void InteractiveMap::display() {
+    std::cout << "Отображение интерактивной карты" << std::endl;
 }

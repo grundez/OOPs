@@ -1,8 +1,14 @@
 #pragma once
+#include <string>
 
-class ExhibitInformation {
+class ExhibitInformation{
+private:
+    std::string info;
+
 public:
-    void getMaterialDetails();
-    void updateInformation();
-    void deleteInformation();
+    ExhibitInformation(std::string exhibitInfo);
+    ExhibitInformation();
+    std::string getInfo();
 };
+
+

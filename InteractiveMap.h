@@ -1,8 +1,12 @@
 #pragma once
+#include <iostream>
+#include "IMap.h"
 
-class InteractiveMap {
+class InteractiveMap : public IMap{
+private:
+    int width;
+    int height;
 public:
-    void displayMap();
-    void highlightExhibits();
-    void getNavigation();
+    InteractiveMap();
+    void display() override;
 };

@@ -127,33 +127,56 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ConcreteIterator.cpp" />
     <ClCompile Include="ConsoleApplication34.cpp" />
     <ClCompile Include="DigitalAssistant.cpp" />
+    <ClCompile Include="ExcursionMemento.cpp" />
     <ClCompile Include="Exhibit.cpp" />
     <ClCompile Include="Guide.cpp" />
+    <ClCompile Include="Hall.cpp" />
+    <ClCompile Include="HighlightDecorator.cpp" />
     <ClCompile Include="InteractiveMap.cpp" />
     <ClCompile Include="ExhibitInformation.cpp" />
+    <ClCompile Include="InteractiveMapDecorator.cpp" />
     <ClCompile Include="Order.cpp" />
     <ClCompile Include="OrderMuseum.cpp" />
     <ClCompile Include="OrderWeb.cpp" />
+    <ClCompile Include="RouteDecorator.cpp" />
     <ClCompile Include="SlowSpeed.cpp" />
     <ClCompile Include="FastSpeed.cpp" />
+    <ClCompile Include="ExhibitAdapter.cpp" />
     <ClCompile Include="Ticket.cpp" />
     <ClCompile Include="TicketProxy.cpp" />
     <ClCompile Include="Visitor.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="ConcreteIterator.h" />
     <ClInclude Include="DigitalAssistant.h" />
     <ClInclude Include="Exhibit.h" />
+    <ClInclude Include="ExhibitAdapter.h" />
+    <ClInclude Include="GuideManager.h" />
+    <ClInclude Include="GuideState.h" />
+    <ClInclude Include="HallFactory.h" />
     <ClInclude Include="ExhibitInformation.h" />
     <ClInclude Include="Guide.h" />
+    <ClInclude Include="Hall.h" />
+    <ClInclude Include="HighlightDecorator.h" />
+    <ClInclude Include="IExhibit.h" />
+    <ClInclude Include="IMap.h" />
     <ClInclude Include="InteractiveMap.h" />
+    <ClInclude Include="InteractiveMapDecorator.h" />
     <ClInclude Include="ISpeed.h" />
+    <ClInclude Include="IterableCollection.h" />
+    <ClInclude Include="Iterator.h" />
     <ClInclude Include="ITicket.h" />
     <ClInclude Include="IOrder.h" />
+    <ClInclude Include="ExcursionMemento.h" />
     <ClInclude Include="Order.h" />
     <ClInclude Include="OrderMuseum.h" />
     <ClInclude Include="OrderWeb.h" />
+    <ClInclude Include="RouteDecorator.h" />
+    <ClInclude Include="ExhibitSingleton.h" />
     <ClInclude Include="SlowSpeed.h" />
     <ClInclude Include="FastSpeed.h" />
     <ClInclude Include="Ticket.h" />

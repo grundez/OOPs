@@ -1,11 +1,10 @@
-#pragma once
-#include <vector>
-#include <string>
+#include <iostream>
+#include "GuideManager.h"
 
-class Visitor {
+class Visitor : public GuideListeners {
 public:
-    void updateProfile();
-    std::vector<std::string> getVisitHistory();
-    void addFavoriteExhibit();
-    void getRecommendation();
+    // Метод, который вызывается при обновлении состояния гида
+    void update(std::string n)  {
+        std::cout << "Посетителю: " + n << std::endl;
+    }
 };

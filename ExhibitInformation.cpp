@@ -1,13 +1,14 @@
-#include "exhibitinformation.h"
+#include "ExhibitInformation.h"
 
-void ExhibitInformation::getMaterialDetails() {
-    // Реализация получения информации о материале экспоната, включая его тип и содержание.
+ExhibitInformation::ExhibitInformation(std::string exhibitInfo) {
+    info = exhibitInfo;
+}
+ExhibitInformation::ExhibitInformation() {
+    info = "нет информации об экспонате..\n";
 }
 
-void ExhibitInformation::updateInformation() {
-    // Реализация обновления материала, например, изменение текстового описания или замена изображения.
+std::string ExhibitInformation::getInfo() {
+    return info;
 }
 
-void ExhibitInformation::deleteInformation() {
-    // Реализация удаления материала из экспоната.
-}
+

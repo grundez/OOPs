@@ -2,5 +2,5 @@
 #include <iostream>
 
 void SlowSpeed::doSpeed() {
-    std::cout << "\n-Start excursion with slow speed by Guide." << std::endl;
+    std::cout << "\n-Начало экскурсии от Гида с медленной скоростью" << std::endl;
 }

@@ -2,6 +2,6 @@
 #include <iostream>
 
 void FastSpeed::doSpeed() {
-    std::cout << "\n-Start excursion with fast speed by Guide." << std::endl;
+    std::cout << "\n-Начало экскурсии от Гида с быстрой скоростью" << std::endl;
 }
 
